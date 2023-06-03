@@ -24,7 +24,8 @@ body {
     color: #d9dcd6;
 }
 
-.header nav {
+.header .nav {
+    
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -53,7 +54,8 @@ p {
 .hero {
     height: 1020px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     background-image: url("pictures/digital-marketing-meeting.jpg");
     background-size:contain;
     background-position: center;
@@ -86,6 +88,58 @@ p {
     background-color: #2589bd;
 }
 
+.benefits .benefit-lead,
+.benefits .benefit-brand,
+.benefits .benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits .benefit-lead h3,
+.benefits .benefit-brand h3,
+.benefits .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits .benefit-lead img,
+.benefits .benefit-brand img,
+.benefits .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    column-count: 2;
+}
+
+.footer {
+    padding: 30px;
+    clear: both
+}
+/* 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -202,6 +256,6 @@ p {
     font-size: 20px;
 
 }
-
+ */
 
 
